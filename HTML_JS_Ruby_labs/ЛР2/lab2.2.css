@@ -1,0 +1,38 @@
+body {
+	font-family : Arial;
+	background-color : white;
+	color : grey;
+	text-align : center;
+	font-size : 50px;
+}
+div.headers>div {
+	float : left;
+}
+div.table>div {
+	float : left;
+}
+div.headers>div:nth-child(1){
+	width : 16%;
+	background-color : wheat;
+}
+div.headers>div:nth-child(2){
+	background-color : palegreen;
+	width : 39.5%;
+}
+div.headers>div:nth-child(3) {
+	background-color : powderblue;
+	width : 40%;
+}
+div.table>div:nth-child(odd) {
+	width : 16%;
+	background-color : lightsteelblue;
+}
+div.table>div:nth-child(even){
+	width : 80%;
+	background-color : lightcyan;
+}
+div>div {
+	margin-bottom : 30px;
+	border-width : 1%;
+	border : 7px solid grey;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Лабораторная работа 2.3</title>
+		<link href="bootstrap.min.css" rel="stylesheet">
+		<style>
+			html {
+				position: relative;
+				min-height: 100%;
+			}
+			body {
+				margin-bottom: 40px;
+			}
+			main {
+				margin-top: 15px;
+				text-align : center;
+			}
+			footer {
+				height: 40px;
+				position: absolute;
+				bottom: 0;
+				width: 100%;
+			}
+			.my-primary {
+				background-color: peru;
+				color: white;
+			}
+			.row {
+				margin-top : 15px;
+				margin: 10px;
+			}
+			table, th, td {border: 1px solid grey;}
+		    table {width: 100%;}
+            th {width: 33%;}
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-dark my-primary">
+				<a class="navbar-brand" href="#">Navbar</a>
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Homе<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main class="container">
+			<div class="row">
+				<div class="col-4">
+					<img src="avatar.jpg" alt="avatar" width="150" height="150">
+				</div>
+				<div class="col-8">
+					<p>"Кошечка в оберточной бумаге"<br/> фото в цвете</p>
+				</div>
+			</div>
+
+		<div class="row">
+			<div class="col-8">
+				<form>
+					<div class="row">
+						<input type="text" class="form-control" placeholder="Фамилия">
+					</div>
+
+					<div class="row">
+						<input type="text" class="form-control" placeholder="Имя">
+					</div>
+
+					<div class="row">
+						<input type="text" class="form-control" placeholder="Почта">
+					</div>
+
+					<div class="row">
+						<input type="password" class="form-control" placeholder="Пароль">
+					</div>
+
+					<div class="row">
+							<p>Пол: <input type="radio" name="gender" value="м"/>м
+                            <input type="radio" name="gender" value="ж"/>ж</p>
+					</div>
+
+					<div class="row">
+						<button class="btn btn-primary" type="submit">Войти</button>
+					</div>        
+
+				</form>
+			</div>
+		</div>
+
+<div>
+<table>
+    <tr>
+        <th>Время</th>
+        <th>ЧС</th>
+        <th>ЗН</th>
+    </tr>
+    <tr>
+        <td>12:00 - 13:35</td>
+        <td colspan="2">(сем) Элективный курс по физической культуре и спорту <em>Каф</em></td>
+    </tr>
+    <tr>
+        <td>13:50 - 15:25</td>
+        <td></td>
+        <td>(сем) Базы данных 427ю <em>Фомин М.М.</em></td>
+    </tr>
+    <tr>
+        <td>15:40 - 17:15</td>
+        <td colspan="2">(лек) Физика<em> 323</em></td>
+    </tr>
+    <tr>
+        <td>17:25 - 19:00</td>
+        <td colspan="2">(лек) Базы данных<em> 501ю Фомин М.М.</em></td>
+    </tr>
+</table>
+<p></p>
+</div>
+        <div>
+        	<h2>Стихотворение Сергея Есенина</h2>
+			<p>Снова выплыли годы из мрака</p>
+			<p>И шумят, как ромашковый луг.</p>
+			<p>Мне припомнилась нынче собака,</p>
+			<p>Что была моей юности друг.</p>
+			<p>Нынче юность моя отшумела,</p>
+			<p>Как подгнивший под окнами клен,</p>
+			<p>Но припомнил я девушку в белом,</p>
+			<p>Для которой был пес почтальон.</p>
+			<p>Не у всякого есть свой близкий,</p>
+			<p>Но она мне как песня была,</p>
+			<p>Потому что мои записки</p>
+			<p>Из ошейника пса не брала.</p>
+		</div>
+		</main>
+
+		<footer class="my-primary">
+			<div class="container">
+				<p class="footer-text">Footer</p>
+			</div>
+		</footer>
+
+	</body>
+</html>
