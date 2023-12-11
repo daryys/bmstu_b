@@ -1,0 +1,61 @@
+#mainDiv {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-size: 15pt;
+    color: black;
+    margin: 40px auto;
+    padding: 100px 50px 50px 50px;
+    max-width: 630px;
+    min-width: 630px;
+}
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    width: 100%;
+    text-align: center;
+}
+th {
+    border: 2px solid black;
+}
+td {
+    border: 1px solid black;
+}
+h1, h3 {
+    color: maroon;
+}
+body {
+    background: url("food.jpg") no-repeat;
+    background-size: cover;
+    text-align: right;
+}
+#name, #price {
+    background: #fffde7;
+    width: 300px;
+    border: 0;
+    font-size: 18px;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+#add, #count {
+    background: #fdc02d;
+    border: 0;
+    padding: 10px 3px 10px;
+    font-size: 18px;
+    color: black;
+    width: 300px;
+    cursor: pointer;
+    margin: 5px;
+}
+.plus:hover {
+    background: darkorange;
+}
+#add:hover, #count:hover {  
+    background: darkorange;
+}
+.tableTitle {
+    background: #ffab00;
+}
+#coll {
+    width: 30%;
+}

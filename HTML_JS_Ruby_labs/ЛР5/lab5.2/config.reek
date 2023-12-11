@@ -1,0 +1,5 @@
+---
+
+# Don't require a comment for modules.
+IrresponsibleModule:
+  enabled: false

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Лабораторная работа №4</title>
+    <link rel="stylesheet" href="lab4.css">
+    <script type="text/javascript" src="lab4.js"></script>
+</head>
+<body>
+<div id="mainDiv">
+    <div class="addProduct">
+        <h1>Продуктовая лавка</h1>
+        <h3>Добавить продукт:</h3>
+        <input id="name" type="text" placeholder="Название" name="name"><br />
+        <input id="price" type="text" placeholder="Цена" name="price"><br />
+        <input id="add" type="submit" value="Добавить" onclick="addToShoppingCart()" />
+    </div>
+    
+    <div id="catalog">
+        <table id="catalogTable">
+            <h3>Каталог:</h3>
+            <tr class="tableTitle">
+                <th>Название</th>
+                <th>Цена, ₽/кг</th>
+                <th>Добавить</th>
+            </tr>
+            <tr>
+                <td>Арбуз</td>
+                <td class="price">300</td>
+                <td class="plus" onclick="add('Арбуз','300')">+</td>
+            </tr>
+            <tr>
+                <td>Лимон</td>
+                <td class="price">50</td>
+                <td class="plus" onclick="add('Лимон','50')">+</td>
+            </tr>
+            <tr>
+                <td>Черешня</td>
+                <td class="price">200</td>
+                <td class="plus" onclick="add('Черешня','200')">+</td>
+            </tr>
+            <tr>
+                <td>Персики</td>
+                <td class="price">100</td>
+                <td class="plus" onclick="add('Персики','100')">+</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="shoppingCart">
+        <h3>Корзина:</h3>
+        <table id="cart">
+            <tr class="tableTitle">
+                <th>Название</th>
+                <th>Цена, ₽</th>
+                <th id="coll">Всего в кг</th>
+            </tr>
+        </table>
+    </div>
+    <div class="payment">
+        <h3><input id="count" type="submit" value="Посчитать цену" onclick="count()"/></h3>
+        <h3 id="sum">К оплате: 0</h3>
+    </div>
+</div>
+</body>
+</html>
